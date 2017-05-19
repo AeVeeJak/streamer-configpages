@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>WiFi Setup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>WiFi Authentication</h1>
+    <p>Please enter your network's ESSID and passphrase in the boxes below.<br>
+      At present, this will only connect to password-protected WPA2 networks.</p>
+    <form method="post" action="/cgi-bin/passToTheWriter.cgi" autofocus>
+      Network Name:<br>
+      <input size="32" maxlength="65" name="ESSID" type="text" required="required"><br>
+      Network Password:<br>
+      <input size="32" maxlength="65" name="PASSWORD" type="password" required="required"><br>
+      <input value="Submit" type="submit">
+    </form>
+    <br>
+    <a href="index.aevee.html"
+    title="Return to Streamer Homepage">
+    Home</a><br>
+  </body>
+</html>
